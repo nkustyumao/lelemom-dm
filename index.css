@@ -46,9 +46,6 @@
 /* header */
 
 /* main */
-.mainImgBlock {
-  position: relative;
-}
 
 .mainImg {
   width: 100%;
@@ -56,29 +53,14 @@
   object-fit: cover;
 }
 
-.item-title {
-  position: absolute;
-  top: 5%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 0 0 10px black;
-}
-
-.item-content {
+.contactBlock {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
   padding: 1rem;
-}
-
-.item-price {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 24px;
 }
 
 /* main */
@@ -95,6 +77,10 @@
   .themeTopBlock img {
     height: 150px;
   }
+
+  .section {
+    gap: 1.5rem;
+  }
 }
 
 html,
@@ -104,7 +90,6 @@ span,
 applet,
 object,
 iframe,
-h2,
 h3,
 h4,
 h5,
